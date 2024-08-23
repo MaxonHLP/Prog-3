@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI PRIMER HTML</title>
+    <style>
+table{
+    width: 100;
+    border-collapse: collapse;
+}
+th , td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}   
+tfoot{
+    background-color: rgb(110, 110, 86);
+    font-weight: bold;
+}
+
+
+    </style>
+</head>
+<body>
+    <ol>
+        <div> 
+            <h3><li id="Estructura">Estructura basica de HTML</li></h3>
+            <P>Este es un ejemoplo de html con titulo , metadatos y etiqueta DOCTYPE</P>
+            <b><h3></h3><li>Encabezados y propiedades de texto</li></h3></b>
+        </div>
+        
+        <div>
+            <h1>Mi primer HTML</h1>
+            <h2>Esto es un h2</h2>
+            <h3>Esto es un h3</h3>
+            <h4>Esto es un h4</h4>
+            <h5>Esto es un h5</h5>
+            <h6>Esto es un h6</h6>     
+        </div>
+
+        <div> 
+            <p style="font-weight: bold;">Este es un texto en negrita.</p>
+            <p style="font-style: italic;">Este es un texto en cursiva.</p>
+            <p style="text-decoration: underline;">Este es un texto subrayado.</p>
+        </div>
+
+        <div>
+            
+            <b><h3></h3><li>Diviciones y Agrupaciones de codigo</li></h3></b>
+
+            <section>
+                <h4>Seccion 1</h4>
+                <P>Contenido de la primera seccion agrupada en un div</P>
+            </section>
+
+            <section>
+                <h4>Seccion 2</h4>
+                <P>Contenido de la segunda seccion agrupada en un div</P>
+            </section>
+        </div>
+        <div>
+            <b><h3></h3><li>Enlaces y listas</li></h3></b>
+            <ul>
+                <li><a href="#Estructura">Estructura</a></li>
+                <li><a href="#Multimedia">Multimedia</a></li>
+                <li><a href="#Formulario">Formulario</a></li>
+            </ul>
+
+            <p>Lista desordenada:</p>
+                <ul>
+                    <li>Primer ítem de una lista desordenada</li>
+                    <li>Segundo ítem de una lista desordenada</li>
+                </ul>
+                <p>Lista ordenada:</p>
+                <ol>
+                    <li>Primer ítem de una lista ordenada</li>
+                    <li>Segundo ítem de una lista ordenada</li>
+                </ol>
+        </div>
+        <div>
+            <li><h3 id="Multimedia">Elementos multimedia<h3/>
+
+                <img src="https://somoskudasai.com/wp-content/uploads/2022/04/image-129.png" width="240" height="160" alt="Un ejemplo de imagen" />
+
+                <audio  src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls/>
+
+                <video >
+                    
+                <source src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" controls width="240px" height="160px" type="video/mp4"/>
+                </video>
+                </li>
+
+
+
+        </div>
+        <li>Tablas</li>
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Columna 1 </th>
+                    <th>Columna 2 </th>
+
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>dato 1</td>
+                    <td>dato 3</td>
+                </tr>
+                <tr>
+                    <td>dato 2</td>
+                    <td>dato 4</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>resultado 1</td>
+                    <td>resultado 2</td>
+                </tr>
+            </tfoot>
+
+
+
+        </table>
+            
+        <li><h3 id="Formulario">Formulario</h3></li>
+                <form>
+                    <label>Nombre:</label>
+                    <input type="text"/>
+                    <label>Email:</label>
+                    <input type="email"/>
+                    <label>Mensaje:</label>
+                    <textarea></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+    </ol>
+</body>
+</html>
